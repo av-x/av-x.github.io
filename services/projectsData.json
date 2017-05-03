@@ -23,6 +23,18 @@
     }
   },
 
+  "sportling": {
+    "title": "Sportling",
+    "url": "http://sportling.co/",
+    "role": "Front-End - UI - Styling",
+    "tech": "Node.js - HTML, CSS - JavaScript - Webpack - Stylus",
+    "images": {
+      "0": "../images/sportling2.png",
+      "1": "../images/sportling3.png",
+      "2": "../images/sportling4.png"
+    }
+  },
+
   "uformatics": {
     "title": "Uformatics Inc. Website",
     "url": "http://uformatics.com/",
@@ -32,42 +44,6 @@
       "0": "../images/uformatics1.jpg",
       "1": "../images/uformatics2.jpg",
       "2": "../images/uformatics3.jpg"
-    }
-  },
-
-  "ticTacToe": {
-    "title": "Tic-Tac-Toe App",
-    "url": "https://a-void.github.io/tic-tac-toe/",
-    "role": "Front-End - Design",
-    "tech": "JavaScript - Node.js - Express.js - HTML, CSS - jQuery",
-    "images": {
-      "0": "../images/tictactoe1.png",
-      "1": "../images/tictactoe2.png",
-      "2": "../images/tictactoe3.png"
-    }
-  },
-
-  "pomodoroClock": {
-    "title": "Pomodoro Clock",
-    "url": "https://a-void.github.io/pomodoro-clock/",
-    "role": "Front-End - Design",
-    "tech": "JavaScript - Node.js - Express.js - HTML, CSS - jQuery",
-    "images": {
-      "0": "../images/pomodoro1.png",
-      "1": "../images/pomodoro2.png",
-      "2": "../images/pomodoro3.png"
-    }
-  },
-
-  "calculator": {
-    "title": "Calculator App",
-    "url": "https://a-void.github.io/calculator/",
-    "role": "Front-End - Design",
-    "tech": "JavaScript - Node.js - Express.js - HTML, CSS - jQuery",
-    "images": {
-      "0": "../images/calculator1.png",
-      "1": "../images/calculator2.png",
-      "2": "../images/calculator3.png"
     }
   }
 }
