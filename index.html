@@ -1,23 +1,30 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Art Vitiuk</title>
-    <meta charset="UTF-8">
-    <base href="/">
+    <title>art vitiuk</title>
+
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#80d8e2">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Art Vitiuk portfolio page">
-    <meta name="keywords" content="github portfolio web developer angular">
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/app.css">
-  </head>
 
-  <body ng-app="app" ng-strict-di>
-    <div navbar></div>
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-116685819-1', 'auto', 'initTracker');
 
-    <div class="wrap" ng-class="homeView ? 'slideout' : 'slidein'">
-      <div ui-view style="height: 100%"></div>
-    </div>
+      if (location.hostname !== 'vitiuk.io') {
+        ga('initTracker.set', 'sendHitTask', null);
+      }
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
 
-    <script src="./scripts/bundle.js"></script>
-  </body>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400" type="text/css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="/public/app.css" rel="stylesheet"></head>
+  <body>
+    <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong>.</noscript>
+    <div id="app"></div>
+  <script type="text/javascript" src="/public/app.js"></script></body>
 </html>
+

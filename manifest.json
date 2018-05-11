@@ -1,0 +1,17 @@
+{
+  "short_name": "vitiuk.io",
+  "name": "Art Vitiuk",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#c1f9fa",
+  "theme_color": "#80d8e2",
+  "display": "standalone",
+  "orientation": "portrait"
+}
+
