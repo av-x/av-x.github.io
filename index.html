@@ -8,6 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script>
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+
+    <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-116685819-1', 'auto', 'initTracker');
 
@@ -23,7 +33,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link href="/public/app.css" rel="stylesheet"></head>
   <body>
-    <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong>.</noscript>
+    <noscript><strong>Please enable JavaScript.</strong></noscript>
     <div id="app"></div>
   <script type="text/javascript" src="/public/app.js"></script></body>
 </html>
