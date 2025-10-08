@@ -1,21 +1,28 @@
-<!doctype html>
-<html lang="en">
+<html>
   <head>
     <title>av</title>
 
     <meta charset="utf-8">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
     <meta name="theme-color" content="#3e9bcf">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="/manifest.json">
-    <link rel="shortcut icon" href="favicon.png?">
-    <link href="public/app.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.png">
+    <link href="/index.css" rel="stylesheet">
   </head>
+
   <body>
-    <noscript><strong>Please enable JavaScript.</strong></noscript>
-    <main>
-      <a href="mailto:avitiuk@me.com">avitiuk@me.com</a>
+    <main id="main">
+      <div class="pane left">
+        <ul id="history" class="history"></ul>
+        <div id="input" class="input"></div>
+      </div>
+      <div id="output" class="pane right">
+      </div>
     </main>
+    <noscript><strong>You need JavaScript enabled to run this site.</strong></noscript>
+    <script type="module" src="/index.js"></script>
   </body>
 </html>
 
