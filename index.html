@@ -16,10 +16,12 @@
     <main id="main">
       <div class="pane left">
         <ul id="history" class="history"></ul>
-        <div id="input" class="input"></div>
+        <div class="relative">
+          <div id="input" class="input"></div>
+          <input id="hidden-input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></input>
+        </div>
       </div>
-      <div id="output" class="pane right">
-      </div>
+      <div id="output" class="pane right"></div>
     </main>
     <noscript><strong>You need JavaScript enabled to run this site.</strong></noscript>
     <script type="module" src="/index.js"></script>
